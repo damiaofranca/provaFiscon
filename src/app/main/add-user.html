@@ -1,0 +1,19 @@
+<div class="container-dialog">
+  <h2 class="title-dialog">
+    Adicionar usuário
+  </h2>
+  <form [formGroup]="userForm" class="content-dialog">
+    <mat-form-field appearance="standard">
+      <mat-label>Nome</mat-label>
+      <input matInput  placeholder="Ex. João" formControlName="name">
+    </mat-form-field>
+    <mat-form-field appearance="standard">
+      <mat-label>telefone</mat-label>
+      <input matInput  placeholder="82998930523" formControlName="phone">
+    </mat-form-field>
+  </form>
+ <div class="actions-dialog">
+  <button mat-button mat-dialog-close>Fechar</button>
+  <button mat-button (click)="submitUser()" >concluir</button>
+ </div>
+</div>

@@ -1,0 +1,80 @@
+.container-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.container-title-page {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-page {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1rem 0.5rem;
+  color: #333;
+}
+
+.title-header {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 1rem 0.5rem;
+}
+
+.button_add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+table {
+  width: 95%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 95%;
+}
+
+.mat-paginator {
+  width: 95%;
+  margin: 2rem 0;
+}
+
+.title-dialog{
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem 0.5rem;
+  color: #333;
+}
+
+.content-dialog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.actions-dialog{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions-dialog > button{
+  margin: 0 1rem;
+}
